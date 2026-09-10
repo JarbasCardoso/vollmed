@@ -5,7 +5,7 @@ import { View,Text, TextInput,StyleSheet } from "react-native";
 const INPUT_BG="#F5F5F5";
 const INPUT_BORDER="#E8E8E8";
 const LABEL_COLOR="#36454F";
-export default function LabeledInput({label }) {
+export default function LabeledInput({label, placeholder }) {
 
     return (
 
@@ -14,7 +14,7 @@ export default function LabeledInput({label }) {
             <Text style={styles.label}>
                 { label}
             </Text>
-            <TextInput style={styles.input} placeholderTextColor="#B5B5B5"  />
+            <TextInput style={styles.input} placeholder={placeholder} placeholderTextColor="#B5B5B5"  />
             
         </View>
     )
