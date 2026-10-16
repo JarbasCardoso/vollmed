@@ -1,6 +1,6 @@
 //componente reutilizavel do botão principal do site 
 
-
+import colors from "../theme/colors";
 
 import { Pressable, Text,StyleSheet} from "react-native";
 const BG_BUTTON ='#00213D';
