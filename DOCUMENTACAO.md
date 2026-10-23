@@ -35,4 +35,9 @@ src
   -- 📂images
     -- 🩻logo.png
 
+     -- 📕ScreenContainer.jsx
 
+  <SafeAreaView></SafeAreaView> -> é um componente que garante que o conteudo da tela não fique escondido atrás de elementos do sistema
+  <KeyboardAvoidingView></KeyboardAvoidingView> ->é um componente que ajusta automaticamente o layout do teclado virtual, quando ele é aberto
+   <ScrollView></ScrollView> -> é um componente que permite que o conteudo da tela seja rolável caso ultrapasse a altura da tela
+   -keyboardShouldPersistTap->
